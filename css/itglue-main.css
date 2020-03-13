@@ -2087,17 +2087,6 @@ body {
   left: 3px;
   top: calc(50% - 1px); }
 
-input[type="checkbox"] {
-  --checkbox-border-color: var(--form-element-border-color);
-  --checkbox-unchecked-background-color: var(--form-element-background-color);
-  --checkbox-checked-background-color: var(--form-element-accent-color);
-  --checkbox-checked-color: white;
-  --checkbox-disabled-background-color: var(--form-element-background-color);
-  --checkbox-disabled-color: var(--form-element-disabled-color);
-  --checkbox-disabled-border-color: var(--form-element-disabled-color);
-  position: relative;
-  outline: none;
-  margin: 2px 8px 0 0; }
   input[type="checkbox"]:before {
     position: absolute;
     display: block;
